@@ -77,6 +77,10 @@ article{
    border-radius: 5px;
     
 }
+article:hover{
+    height: 255px;
+    width: 405px;
+}
 .Proyectos{
     height: 250px;
    width: 400px;
@@ -85,8 +89,8 @@ article{
 }
 .Proyectos:hover{
     opacity: 0.5;
-    height: 250px;
-   width: 350px;
+    height: 255px;
+   width: 405px;
 }
 .Proyectos1{
     height: 250px;
@@ -115,12 +119,12 @@ article{
 }
 .BtnV{
     margin-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 30px;
     width: 100px;
     font-weight: 800;
     transition: 300ms;
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.463);
 }
 .BtnV:hover{
     margin-bottom: 20px;
@@ -132,16 +136,19 @@ article{
 }
 .Contenedor3{
     display: flex;
-    justify-content: center; 
+    justify-content: space-around; 
     margin-bottom: 2cm;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 1cm;
+    margin-right: 1cm;
     flex-flow: row wrap;
 }
 .About2{
     color: aliceblue;
-    padding-right: 8cm;
     width: 10cm;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 .HandP{
     display: flex;
@@ -151,6 +158,24 @@ article{
 .formulario{
     color: aliceblue;
    
+}
+.Nombre{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.Email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.MainSuperTextbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column  
 }
 .Tform{
     font-size: 20px;
