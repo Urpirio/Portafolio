@@ -94,9 +94,11 @@ main{
     .MainSection2{
         display: flex;
         justify-content: space-between;
+        justify-items: center;
         margin-left: 1cm;
         margin-right: 1cm;
         flex-flow: row wrap;
+        
     }
     .Insection21{
         margin-top: 1cm;
@@ -119,8 +121,27 @@ main{
         color: aliceblue;
        
     }
+    .Nombre{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Email{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .MainSuperTextbox{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column  
+    }
     .Tform{
         font-size: 20px;
+        
     }
     .textBox{
         height: 40px;
@@ -129,6 +150,7 @@ main{
         border: none;
         outline: none;
         border-radius: 2.5px;
+        margin-top: 5px;
     
     }
     .SuperTextbox{
@@ -138,6 +160,7 @@ main{
         border: none;
         outline: none;
         border-radius: 2.5px;
+        margin-top: 5px;
     }
     ::placeholder{
         color: rgb(159, 160, 160);
@@ -146,33 +169,79 @@ main{
     .FormTextbtn{
         height: 0.7cm;
         width: 2.5cm;
-        border-radius: 10px;
+        border-radius: 5px;
         background-color: aliceblue;
         font-size: 15px;
         font-weight: 600;
+        transition: 300ms;
+    }
+    .FormTextbtn:hover{
+        height: 0.85cm;
+        width: 2.65cm;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Mainproform{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2cm;
+        
+    }
+    .divproform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    .NamePro{
+       display: flex;
+       margin-left: 1cm;
     }
     .proform{
         display: flex;
         justify-content: space-between;
-        margin-left: 1cm;
-        margin-right: 1cm;
-        flex-flow: row;
+        margin-bottom: 1cm;
+        flex-flow: row wrap;
         color: aliceblue;
     }
     .Proyectos2{
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .imgproyect1{
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        width: 20cm;
+        align-items: center;
+    }
+    .imgproyect2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 .ImgProyectos{
-    height: 150px;
-    width: 300px;
+    height: 250px;
+    width: 400px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: 300ms;
+}
+.ImgProyectos:hover{
+    height: 255px;
+    width: 405px;
+    opacity: 0.7;
 }
 
 
