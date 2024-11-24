@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+main{
+    background-color: rgba(240, 248, 255, 0.07);
+    background-size: cover;
+}
+
+
+.logoPTF{
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 0;
+}
+
+.Contenedor{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    height:2cm;
+    
+
+}
+.WorkContacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .workc{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+.workc1{
+    color: rgba(240, 248, 255, 0.686);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 300ms;
+    margin-left: 10px;
+}
+.workc1:hover{
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.86);
+}
+.Redlogo{
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: 300ms;
+    margin-top: 0;
+}
+.Redlogo:hover{
+    height: 35px;
+}
+
+.MainContenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.Flex{
+    display: none;
+}
+img{
+    margin-top: 1.5cm;
+    height: 9.9cm;
+    
+}
+.footersection{
+    color: aliceblue;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 300ms;
+}
+.footersection:hover{
+    font-size: 20px;
+}
+.infootersection{
+    text-decoration: none;
+    font-size: 25px;
+    color: cadetblue;
+    font-family: "Passion One", sans-serif;
+    transition: 300ms;
+}
+.infootersection:hover{
+    font-size: 28px;
+}
+.Redsocial2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Redlogo2{
+    display: none;
+ }
+.Redlogo2:hover{
+    height: 35px;
+}
+
+@media(max-width:667px){
+    header{
+        margin-bottom: 0cm;
+    }
+    
+    .Rdragonball{
+        margin-top: 2;
+    }
+    .Flex{
+        transition: 300ms;
+        display: flex;
+        
+    }
+    img{
+        height: 5.5cm;
+       
+        
+        
+    }
+    
+    .workc{
+        transition: 300ms;
+        margin-top: 0.6cm;
+        
+    }
+    .workc1{
+        transition: 300ms;
+        margin-top: 0.6cm;
+    }
+    .WorkContacts{
+        display: flex;
+        align-items: center;
+        align-content: center;
+    }
+   .Redsocial{
+    display: none;
+   }
+   .Redlogo{
+    height: 1px;
+   }
+   h1{
+    
+   display: none;
+
+}
+.Redlogo2{
+    display: flex;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    transition: 300ms;
+    margin-top: 0;
+}
+header{
+    height: 2cm;
+}
+
+    
+}
+.Parrafos1{
+    width: 20cm;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: left;
+}
+.p{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px ;
+    
+}
+
+.MainContenedor2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+footer{
+    background-color: black;
+    height: 3cm;
+}

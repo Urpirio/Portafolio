@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+main{
+    color: aliceblue;
+    background-color: black;
+    padding-bottom: 4cm;
+}
+.MainSection{
+   background-color:  rgba(240, 248, 255, 0.063);
+   color: aliceblue;
+}
+.logoPTF{
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.Contenedor{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    align-items: center;
+    height:2cm;
+    
+
+}
+.WorkContacts{
+    display: flex;
+    align-items: center;
+}
+  .workc{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .workc1{
+        color: rgba(240, 248, 255, 0.686);
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 700;
+        transition: 300ms;
+        margin-left: 10px;
+        
+    }
+    .workc1:hover{
+        font-size: 22px;
+        color: rgba(240, 248, 255, 0.86);
+    }
+    .Redlogo{
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+        text-decoration: none;
+        transition: 300ms;
+    }
+    .Redlogo:hover{
+        height: 35px;
+    }
+    .imgSection{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .imgSection2{
+        border-radius: 50px;
+        border: 2px solid white;
+        margin-top: 1cm;
+    }
+    .inPsection{
+        display: flex;
+        justify-content: left;
+        margin-left: 1cm;
+    }
+    .h1section{
+        display: flex;
+        justify-content: center;
+    }
+    .parrafoSection{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        flex-flow: row wrap;
+        font-weight: 500;
+    }
+    .MainSection2{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        flex-flow: row wrap;
+        
+    }
+    .Insection21{
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+        color: aliceblue;
+        width: 18.5cm;
+        background-color: rgba(240, 248, 255, 0.063);
+    }
+    .Insection22{
+        margin-top: 1cm;
+        margin-bottom: 1cm;
+        color: aliceblue;
+        width: 18.5cm;
+        background-color: rgba(240, 248, 255, 0.063);
+    }
+    .h1section2{
+        margin-left: 40px;
+    }
+    .formulario{
+        color: aliceblue;
+       
+    }
+    .Nombre{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Email{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .MainSuperTextbox{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column  
+    }
+    .Tform{
+        font-size: 20px;
+        
+    }
+    .textBox{
+        height: 40px;
+        width: 10cm;
+        background-color: rgba(240, 248, 255, 0.405);
+        border: none;
+        outline: none;
+        border-radius: 2.5px;
+        margin-top: 5px;
+    
+    }
+    .SuperTextbox{
+        height: 3cm;
+        width: 10cm;
+        background-color: rgba(240, 248, 255, 0.405);
+        border: none;
+        outline: none;
+        border-radius: 2.5px;
+        margin-top: 5px;
+    }
+    ::placeholder{
+        color: rgb(159, 160, 160);
+    
+    }
+    .FormTextbtn{
+        height: 0.7cm;
+        width: 2.5cm;
+        border-radius: 5px;
+        background-color: aliceblue;
+        font-size: 15px;
+        font-weight: 600;
+        transition: 300ms;
+    }
+    .FormTextbtn:hover{
+        height: 0.85cm;
+        width: 2.65cm;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .Mainproform{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 2cm;
+        
+    }
+    .divproform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    .NamePro{
+       display: flex;
+       margin-left: 1cm;
+    }
+    .proform{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1cm;
+        flex-flow: row wrap;
+        color: aliceblue;
+    }
+    .Proyectos2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .imgproyect1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgproyect2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+.ImgProyectos{
+    height: 250px;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 300ms;
+}
+.ImgProyectos:hover{
+    height: 255px;
+    width: 405px;
+    opacity: 0.7;
+}
+footer{
+    background-color: black;
+    height: 4cm;
+    border-top: 1px solid rgba(255, 255, 255, 0.132);
+}
+.footersection{
+    color: aliceblue;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: 300ms;
+    margin-top: 0.5cm;
+}
+.footersection:hover{
+    font-size: 20px;
+}
+.infootersection{
+    text-decoration: none;
+    font-size: 25px;
+    color: cadetblue;
+    font-family: "Passion One", sans-serif;
+    transition: 300ms;
+}
+.infootersection:hover{
+    font-size: 28px;
+}
+.Redsocial2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Redlogo2{
+    display: none;
+ }
+.Redlogo2:hover{
+    height: 35px;
+}
+
+
+
+
+
+    @media (max-width: 914){
+       
+        .Insection21{
+            margin-top: 1cm;
+            margin-bottom: 1cm;
+            color: aliceblue;
+            background-color: rgba(240, 248, 255, 0.063);
+        }
+        .Insection22{
+            margin-top: 1cm;
+            margin-bottom: 1cm;
+            color: aliceblue;
+            background-color: rgba(240, 248, 255, 0.063);
+        }
+        .h1section2{
+            
+        }
+    }
