@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: "Roboto Condensed", sans-serif;
 }
+header{
+    top: 0;
+    position: sticky;
+}
 main{
     color: aliceblue;
     background-color: black;
@@ -36,10 +40,11 @@ main{
   .workc{
         text-decoration: none;
         color: aliceblue;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
         margin-left: 20px;
         margin-right: 20px;
+        border-bottom: 2px solid white;
     }
 
 .workc1{
@@ -53,6 +58,7 @@ main{
     .workc1:hover{
         font-size: 22px;
         color: rgba(240, 248, 255, 0.86);
+        border-bottom: 2px solid  rgba(240, 248, 255, 0.86) ;
     }
     .Redlogo{
         height: 30px;
