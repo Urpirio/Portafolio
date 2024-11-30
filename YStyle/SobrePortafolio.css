@@ -3,6 +3,10 @@ body{
     background-color: #0F1010;
     font-family: "Roboto Condensed", sans-serif;
 }
+header{
+    top: 0;
+    position: sticky;
+}
 main{
     
     background-size: cover;
@@ -51,8 +55,9 @@ main{
     margin-left: 10px;
 }
 .workc1:hover{
-    font-size: 20px;
-    color: rgba(240, 248, 255, 0.86);
+    font-size: 21px;
+    color:white;
+    border-bottom: 2px solid white;
 }
 .Redlogo{
     height: 30px;
@@ -69,7 +74,7 @@ main{
 .MainContenedor{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-flow: wrap;
 }
 .Flex{
@@ -77,7 +82,8 @@ main{
 }
 img{
     margin-top: 1.5cm;
-    height: 9.9cm;
+    height: 10cm;
+    border-radius: 5px;
     
 }
 .ImgPortafolio{
@@ -85,18 +91,20 @@ img{
 }
 .ImgPortafolio2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-flow: row wrap;
 }
 .Imgport1{
-    margin-left: 28px;
+    height: 10.7cm;
     border: 1px solid white;
+    border-radius: 5px;
     
 }
 .Imgport2{
     border: 1px solid white;
-    margin-right: 70px;
+    height: 10.7cm;
+    border-radius: 5px;
 }
 .footersection{
     color: aliceblue;
