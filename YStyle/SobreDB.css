@@ -3,6 +3,10 @@ body{
     background-color: black;
     font-family: "Roboto Condensed", sans-serif;
 }
+header{
+    top: 0;
+    position: sticky;
+}
 main{
     background-color: rgba(240, 248, 255, 0.07);
     background-size: cover;
@@ -51,7 +55,8 @@ main{
 }
 .workc1:hover{
     font-size: 20px;
-    color: rgba(240, 248, 255, 0.86);
+    color: white;
+    border-bottom: 2px solid white;
 }
 .Redlogo{
     height: 30px;
