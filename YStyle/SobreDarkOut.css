@@ -3,6 +3,10 @@ body{
     background-color: black;
     font-family: "Roboto Condensed", sans-serif;
 }
+header{
+    top: 0;
+    position: sticky;
+}
 main{
     background-color: rgba(240, 248, 255, 0.07);
     background-size: cover;
@@ -24,8 +28,6 @@ main{
     color: aliceblue;
     align-items: center;
     height:2cm;
-    
-
 }
 .WorkContacts{
     display: flex;
@@ -50,8 +52,9 @@ main{
     margin-left: 10px;
 }
 .workc1:hover{
-    font-size: 20px;
-    color: rgba(240, 248, 255, 0.86);
+    font-size: 21px;
+    color: white;
+    border-bottom: 2px solid white;
 }
 .Redlogo{
     height: 30px;
@@ -79,6 +82,22 @@ img{
     height: 9.9cm;
     
 }
+.imgdarkout{
+    width: 18cm;
+}
+.Maincontenedor2-img{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+.imgdarkout2{
+    margin-top: -0.6cm;
+    width: 19cm;
+}
+.imgdarkout3{
+    margin-top: -0.6cm;
+    width: 19cm;
+}
 .footersection{
     color: aliceblue;
     font-weight: 600;
@@ -87,6 +106,7 @@ img{
     align-items: center;
     font-size: 18px;
     transition: 300ms;
+    margin-top: 0.7cm;
 }
 .footersection:hover{
     font-size: 20px;
@@ -113,6 +133,49 @@ img{
 .Redlogo2:hover{
     height: 35px;
 }
+@media(max-width:1480px){
+    .imgdarkout{
+        width: 14cm;
+    }
+    .imgdarkout2{
+        width: 16cm;
+    }
+    .imgdarkout3{
+        width: 16cm;
+    }
+}
+@media(max-width:1280px){
+    .imgdarkout{
+        height: 7.5cm;
+        width: 10cm;
+    }
+    .imgdarkout2{
+        margin-top: -0.6cm;
+        width: 14cm;
+    }
+    .imgdarkout3{
+        margin-top: -0.6cm;
+        width: 14cm;
+    }
+}
+@media(max-width:1080px){
+    .imgdarkout{
+        height: 2.5cm;
+        width: 4cm;
+    }
+    .imgdarkout2{
+        margin-top: -0.6cm;
+        height: 7.5cm;
+        width: 12cm;
+    }
+    .imgdarkout3{
+        margin-top: -0.6cm;
+        height: 7.5cm;
+        width: 12cm;
+    }
+}
+
+
 
 @media(max-width:667px){
     header{
@@ -125,13 +188,24 @@ img{
     .Flex{
         transition: 300ms;
         display: flex;
-        
     }
     img{
         height: 5.5cm;
-       
-        
-        
+    }
+    .imgdarkout{
+        width: 12cm;
+        height: 7.5cm;
+        margin-top: -0.4cm;
+    }
+    .imgdarkout2{
+        margin-top: 0.5cm;
+        height: 7.5cm;
+        width: 12cm;
+    }
+    .imgdarkout3{
+        margin-top: 0.5cm;
+        height: 7.5cm;
+        width: 12cm;
     }
     
     .workc{
