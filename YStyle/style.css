@@ -99,6 +99,17 @@ article{
    transition: 300ms;
 }
 
+.Proyectosz{
+    height: 250px;
+   width: 400px;
+   border-radius: 5px;
+   transition: 300ms;
+}
+.Proyectosz:hover{
+    height: 260px;
+   width: 410px;
+   border: 2px solid white;
+}
 
 main{
 
@@ -275,22 +286,25 @@ article{
    border-radius: 5px;
     
 }
-article:hover{
-    height: 205px;
-   width: 305px;
-}
+
 .Proyectos{
     height: 200px;
    width: 300px;
    border-radius: 5px;
    transition: 300ms;
 }
-.Proyectos:hover{
-    opacity: 0.5;
-    height: 155px;
-    height: 205px;
-    width: 305px;
+.Proyectosz{
+    height: 200px;
+   width: 300px;
+   border-radius: 5px;
+   transition: 300ms;
 }
+.Proyectosz:hover{
+    height: 205px;
+   width: 305px;
+   border: 2px solid white;
+}
+
 .Redsocial{
     display: flex;
     flex-direction: column;
