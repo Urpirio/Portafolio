@@ -254,7 +254,7 @@ main{
 }
 footer{
     background-color: black;
-    height: 4cm;
+    height: 2cm;
     border-top: 1px solid rgba(255, 255, 255, 0.132);
 }
 .footersection{
@@ -274,7 +274,6 @@ footer{
     text-decoration: none;
     font-size: 25px;
     color: cadetblue;
-    font-family: "Passion One", sans-serif;
     transition: 300ms;
 }
 .infootersection:hover{
