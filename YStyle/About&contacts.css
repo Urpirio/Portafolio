@@ -104,7 +104,6 @@ main{
         justify-items: center;
         margin-left: 1cm;
         margin-right: 1cm;
-        flex-flow: row wrap;
         
     }
     .Insection21{
@@ -120,6 +119,9 @@ main{
         color: aliceblue;
         width: 18.5cm;
         background-color: rgba(240, 248, 255, 0.063);
+    }
+    .h1section23{
+        list-style: disc;
     }
     .h1section2{
         margin-left: 40px;
@@ -296,6 +298,10 @@ footer{
 
 
     @media (max-width: 667px){
+        .MainSection2{
+         flex-wrap: wrap;
+            
+        }
        
         .Insection21{
             margin-top: 1cm;
@@ -310,7 +316,7 @@ footer{
             background-color: rgba(240, 248, 255, 0.063);
         }
         .h1section2{
-            
+            margin-left: 10px;
         }
         .workc{
             transition: 300ms;
@@ -337,5 +343,28 @@ footer{
             text-decoration: none;
             transition: 300ms;
             margin-top: 0;
+        }
+        .ImgProyectos{
+            height: 200px;
+            width: 300px;
+        }
+        .ImgProyectos:hover{
+            height: 205px;
+            width: 305px;
+            opacity: 0.7;
+        }
+        .SuperTextbox{
+            height: 3cm;
+            width: 8.8cm;
+        }
+        .textBox{
+            height: 40px;
+            width: 8.8cm;
+            
+        
+        }
+        .formulario{
+            margin-left: 20px;
+            margin-right: 20px;
         }
     }
