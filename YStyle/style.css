@@ -99,6 +99,17 @@ article:hover{
     height: 255px;
    width: 405px;
 }
+.Proyectos2{
+    height: 250px;
+   width: 400px;
+   border-radius: 5px;
+   transition: 300ms;
+}
+.Proyectos2:hover{
+    opacity: 0.5;
+    height: 255px;
+   width: 405px;
+}
 .Proyectos1{
     height: 250px;
     width: 400px;
@@ -311,5 +322,19 @@ article:hover{
     transition: 300ms;
     margin-top: 0;
     margin-bottom: 1cm;
+
+}
+.textBox{
+    height: 40px;
+    width: 8cm;
+
+}
+.SuperTextbox{
+    height: 3cm;
+    width: 8cm;
+    
+}
+.Proyectos2{
+   display: none;
 }
 }
