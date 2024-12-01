@@ -91,6 +91,7 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 18px;
+    margin-top: 0.5cm;
     transition: 300ms;
 }
 .footersection:hover{
@@ -100,7 +101,6 @@ img{
     text-decoration: none;
     font-size: 25px;
     color: cadetblue;
-    font-family: "Passion One", sans-serif;
     transition: 300ms;
 }
 .infootersection:hover{
@@ -118,8 +118,39 @@ img{
 .Redlogo2:hover{
     height: 35px;
 }
+.Parrafos1{
+    width: 20cm;
+    margin-left: 20px;
+    margin-right: 20px;
 
-@media(max-width:667px){
+}
+h1{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    font-size: 18px;
+    text-align: left;
+}
+.p{
+    color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px ;
+    
+}
+
+.MainContenedor2{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+}
+footer{
+    background-color: black;
+    height: 2cm;
+    border-top: 1px solid rgba(255, 255, 255, 0.132)
+}
+@media (max-width:667px){
     header{
         margin-bottom: 0cm;
     }
@@ -177,36 +208,8 @@ header{
     height: 2cm;
 }
 
-    
-}
-.Parrafos1{
-    width: 20cm;
-    margin-left: 20px;
-    margin-right: 20px;
-
-}
-h1{
-    color: aliceblue;
-}
-p{
-    color: aliceblue;
-    font-size: 18px;
-    text-align: left;
-}
-.p{
-    color: aliceblue;
-    margin-left: 20px;
-    margin-right: 20px ;
-    
+.Redsocial2{
+    margin-bottom: 1cm;
 }
 
-.MainContenedor2{
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-
-}
-footer{
-    background-color: black;
-    height: 3cm;
 }
